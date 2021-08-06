@@ -1,0 +1,28 @@
+.footer{
+	background-color: grey;
+	text-align: center;}
+.container-fluid{margin: 60px;
+	padding: 8px;}
+a:link{text-decoration: none;
+color: orange;
+}
+a:visited{color: rgb(0,0,255);}
+a:hover{color: rgb(255,0,0);
+text-decoration: none;}
+a:active{color: rgb(0,255,0);}
+.nav{position: absolute; text-align: center; width: 80%; top: 110px;}
+li{text-decoration: none;
+display: inline;
+padding: 10px;
+margin: auto;
+font-weight: bold;
+font-size: 30px;}
+
+body{background-color: #00FFFF;}
+.footer-fluid{background-color: rgb(0,0,0);
+color: rgb(255,255,255);}
+.footer2{text-align: center;
+background-color: rgb(128,128,128);
+color: rgb(0,0,0)}
+
+

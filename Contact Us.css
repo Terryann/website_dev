@@ -1,0 +1,56 @@
+h1{text-align: center;
+color: blue;
+text-transform:uppercase; 
+}
+h2{text-align: center;
+color: red;
+text-transform:uppercase;}
+
+li{display: block;
+position: relative; transform: translate(-50%,-50%);
+padding: 5px;
+margin: 20px;
+font-size: 22px;
+font-weight: bold;
+}
+a:link{color: orange;
+text-decoration: none;}
+a:visited{color: black;}
+a:hover{color: red;}
+a:active{color: green;}
+body{background-size: cover;
+background-position: center; 
+margin: 0px;
+padding: 0px;
+background-image: url(images/ricar.jpg); 
+text-align: center;}
+.form{background-color: black;
+	transform: translate(5%, 10%);
+position: absolute;
+margin-left: 610px;
+border-radius: 20px;
+border-top-left-radius: 10px;
+margin-top: 0px;
+}
+input{width: 90%;
+padding: 2px;
+}
+input[type="name"]{border-color: white;
+	background-color: cyan;
+	border-width: 2px;}
+ input[type="email"]{border-width: 2px;
+ 	background-color: cyan;
+ 	border-color: white;
+ }
+ textarea{width: 90%;
+ 	box-sizing: border-box;
+ 	border: 2%;
+ 	background-color: white;}
+ 	input[type="Submit"]{
+ 		background-color: rgb(255,165,0);
+ 		cursor: pointer;
+
+
+ 	}
+
+input[type="Submit"]:hover{color: red;}
